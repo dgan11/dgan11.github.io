@@ -215,11 +215,13 @@
 						<div class="content">
 							<h2>Predicting Trip Purposes (Machine Learning)</h2>
 							<p>
-								Used California Transport data to predict the purpose of a person's trip given spatial, temporal, and personal
-								features (income, education, etc.). I learned to visualize the data set in order to first gain insights into it and fix errors in a dataset with over 42,000 rows and 50 features (columns).
-								I used recursive feature selection to find the best features for prediction and remove features that were not good predictors. 
-								I found the best standard models for prediction (Gradient Boosting Tree and Random Forest Classifier) and built my own predictive model, that outperformed
-								the best of these standard models by 4%
+								I used California Transport data to predict the purpose of a person's trip given spatial, temporal, and personal
+								features (income, education, etc.). I learned different ways to visualize the data set in order to first gain insights
+								and fix errors in a dataset with over 42,000 rows and 50 features (columns). In order to used recursive feature selection
+								to find the best features for prediction and remove features that were not good predictors. 
+								I found the best standard models for prediction (Gradient Boosting Tree and Random Forest Classifier) and used recursive 
+								feature selection optimize the base models further by only including features that served as good predictors. 
+								Finally, I built my own predictive model, that outperformed the best of these standard models by 4%
 							</p>
 							<p>
 							Tools used:<em> Python, Pandas, Numpy, Scikit Learn</em>
