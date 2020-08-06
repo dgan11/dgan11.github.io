@@ -23,7 +23,7 @@
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>David Gan</h1>
-							<p class="major">Aspiring Software Engineer<br>Student & Lifelong Learner</p>
+							<p class="major">Cloud Engineer @ Oracle<br>New Grad & Lifelong Learner</p>
 							<ul class="actions stacked">
 								<li><a href="#first" class="button large wide smooth-scroll-middle">More Info</a></li>
 							</ul>
@@ -42,10 +42,12 @@
 								<!-- Blockquote -->
 								<section>
 									<header>
-										<h3>Nelson Mandela</h3>
+										<h3>Jacob Riis</h3>
 									</header>
 									<div class="content">
-										<blockquote>There is no passion to be found in playing small - in settling for a life that is less than the one you are capable of living.</blockquote>
+										<blockquote>When nothing seems to help, I go and look at a stonecutter hammering away at his rock perhaps a hundred times without as
+										much as a crack showing in it. Yet at the hundred and first blow it will split in two, and I know it was not that blow
+										that did it, but all that had gone before.</blockquote>
 									</div>
 								</section>
 								</div>
@@ -57,15 +59,10 @@
 						<div class="inner">
 								<h2>About Me</h2>
 								<p>
-									Hello. My name is David Gan and I am a rising Senior at Rice University in Houston, TX. 
-									I am passionate about the role technology can play in connecting the world and producing 
-									numerous solutions to make the world a more efficient, better place for us all.
-									I am currently looking for Software Engineering positions upon my graduation in May of 2020.
+									Hello! My name is David Gan. I am passionate about the role technology can play in 
+									meaningfully improving the lives of people and producing numerous scalable solutions 
+									to make the world a more efficient, better place for us all.
 									<br>
-									<br>
-									I love to explore new places, soaking up the sights and emersing myself in the culture. I need
-									to stay active whether it be hitting the gym, playing for the Rice University Club Soccer Team, 
-									or hiking. Some of my other hobbies include cooking and film photography.
 								 </p>
 						</div>
 
@@ -160,29 +157,41 @@
 				<!-- Additional Elements -->
 				<section class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>Projects I've Worked On</h2>
-							<p>From machine learning to automated bots. A full project I pioneered, designed, and coded will be used in 
+							<h2>Work Experience</h2>
+							<!-- <p>From machine learning to automated bots. A full project I pioneered, designed, and coded will be used in 
 								production by a Fortune 15 company (Chevron).
-							</p>
+							</p> -->
 							<div class="index align-left">
-
 							</div>
 						</div>
 				</section>
 					
+				<!-- Main Project Spotlight 2 -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Oracle - Cloud Engineer</h2>
+							<p>
+								I build and deliver cloud based solutions to solve customer's problems -- coordinating between multiple teams (product, sales, and stakeholders) to strategize, understand and address customer's
+								business needs.
+							</p>
+						</div>
+						<div class="image">
+							<img src="images/ocloud.png" alt="" />
+						</div>
+					</section>
 
 				<!-- Main Project Spotlight 1 -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first1">
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first1">
 						<div class="content">
-							<h2>Oilspill Bot</h2>
+							<h2>Chevron - Software Engineer Intern
+							</h2>
+							<h3>Oil Spill Finder</h3>
 							<p>
-								I built an automated process that parses a NOAA website to extract satellite data of
-								of oil spills. It then filters the data for uniquenss, severity, and proximity to Chevron's pipes and platforms, and finds oilspills that 
-								are within proximity of these assets. The process then alerts the control center in order to prevent loss of containment
-								and environmental incidents.
+								I developed an automated application that finds oil spill and sends alerts. To this day, it has discovered 2 previously 
+								unknown oil spills preventing significant enviornmental and economic damage.
 							</p>
 							<p>
-							Tools used:<em> Python, Azure, Oracle Databases, Beautiful Soup, Oracle Databases, ArcMap, ArcPy </em>
+							Tech Used:<em> Python, SQL, Azure</em>
 							</p>
 							
 						</div>
@@ -191,30 +200,12 @@
 						</div>
 					</section>
 
-				<!-- Main Project Spotlight 2 -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>WildFire Bot</h2>
-							<p>
-								I created a bot that extracts up to the hour wildfire data from a NASA website which then intelligently filters out fires that are not severe enough or do not have a high confidence rating and 
-								performs geospatial analysis in order to find only the fires that are within proximity of Chevron pipes and building. It then alerts the control center of the fire. Passing along all the fire’s
-								data and the asset impacted to ensure the safety of all Chevron employees and products.
-								
-							</p>
-							<p>
-							Tools used:<em> Python, Azure, Oracle Databases, Beautiful Soup, Oracle Databases, ArcMap, ArcPy </em>
-							</p>
-						</div>
-						<div class="image">
-							<img src="images/spotWF.PNG" alt="" />
-						</div>
-					</section>
-
 				<!-- Main Project Spotlight 3 -->
 				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first1">
 						<div class="content">
-							<h2>Predicting Trip Purposes (Machine Learning)</h2>
-							<p>
+							<h2>Missouri University of Science & Technology - Data Science Research Intern</h2>
+							<h3>Predicting Trip Purpose Using Machine Learning</h2>
+							<!-- <p>
 								I used California Transport data to predict the purpose of a person's trip given spatial, temporal, and personal
 								features (income, education, etc.). I learned different ways to visualize the data set in order to first gain insights
 								and fix errors in a dataset with over 42,000 rows and 50 features (columns). In order to used recursive feature selection
@@ -222,9 +213,14 @@
 								I found the best standard models for prediction (Gradient Boosting Tree and Random Forest Classifier) and used recursive 
 								feature selection optimize the base models further by only including features that served as good predictors. 
 								Finally, I built my own predictive model, that outperformed the best of these standard models by 4%
+							</p> -->
+							<p>
+								I used California Transport data to predict the purpose of a users's trip given her starting location, time, and certain personal
+								features (income, education, etc.). I created a novel predictive model, that surpassed the predictive accuracy of previous models by 4%
+								by weighting long-term vs. short-term behavior.
 							</p>
 							<p>
-							Tools used:<em> Python, Pandas, Numpy, Scikit Learn</em>
+							Tools used:<em> Python, Pandas, Numpy</em>
 							</p>
 						</div>
 						<div class="image">
@@ -237,38 +233,70 @@
 				<!-- Side Projects-->
 					<section class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>Side Projects</h2>
-							<p>Coding projects I have done for fun.</p>
+							<h2>Side Projects and Achievements</h2>
+							<!-- <p>Coding projects I have done for fun and awards I have won</p> -->
 							<div class="items style1 medium onscroll-fade-in">
 								<section>
-									<span class="icon solid style2 major fa-utensils"></span>
-									<h3>Decide What to Eat (IOS App)</h3>
-									<p>
-										Created a quiz-style app fully programatically (no storyboard) in Swift, which takes users' responses 
-										to fun personality questions and helps them decide on what to eat 
+									<span class="icon solid style2 major fa-balance-scale-right"></span>
+									<h3>Defund Police Email Bot</h3>
+									<p>Launched a bot that automates sending 1000+ personalized emails calling for police reform in 85 local
+									governments in under a minute. Had 50+ unique downloads and sent 50,000+ emails. <br>
+										<a href="https://defundemailbot.github.io/">Website</a>
 									</p>
 								</section>
+
 								<section>
-									<span class="icon solid style2 major fa-hands-helping"></span>
+									<span class="icon solid style2 major fa-seedling"></span>
+									<h3>VC Grad Course - Best Final Project</h3>
+									<p>
+										Led a group with 3 MBA students and pitched a startup investment to the Rice Investment Committee, Houston Angel
+										Network, and Mercury Fund. Produced a $25,000 investment before COVID-19. <br>
+										<a href="Final_sEATz_Deck.pdf">Pitch deck</a>
+									</p>
+								</section>
+
+								<section>
+									<span class="icon solid style2 major fa-trophy"></span>
 									<h3>Chevron Intern Hackathon 2019 - First Place Overall</h3>
 									<p>
 										Collaborated with a group of interns to build a volunteer registration web application, finishing first
 										out of over 50 teams nationally
 									</p>
 								</section>
+
 								<section>
-									<span class="icon solid style2 major fa-film"></span>
+								<span class="icon solid style2 major fa-basketball-ball"></span>
+								<h3>Moving the NBA 3-PT Line</h3>
+								<p>
+									Analyzed NBA statistics to find which players/teams would be most advantaged or disadvantaged if the three point line
+									was moved further back. Received the highest grade in the class.  <br>
+									<a href="Comp430_NBA_3ptLine.pdf">Read It</a>
+								</p>
+								</section>
+
+								<section>
+									<!-- <span class="icon solid style2 major fa-film"></span> -->
+									<span class="icon solid style2 major fa-balance-scale-right"></span>
 									<h3>MoviesDB Search Web App</h3>
 									<p>Leveraged React, Node.js, and the MovieDB API in order to build a web app where people can search for 
-										movies and find reviews, cast lists, and more information at the click of a button
+										movies, find reviews, and find more information about any movie at the click of a button.
 									</p>
 								</section>
+
 								<section>
+									<span class="icon solid style2 major fa-utensils"></span>
+									<h3>Decide What to Eat - IOS App</h3>
+									<p>
+										Created a quiz-style app fully programatically in Swift, which takes user's responses
+										to fun personality questions to help them decide what to eat.
+									</p>
+								</section>
+								<!-- <section>
 									<span class="icon solid style2 major fa-wifi"></span>
 									<h3>Personal Website</h3>
 									<p>Used HTML, CSS, Javascript, and Bootstrap to create a responsive, interactive personal website that can be viewed 
 									beautifully on any device.</p>
-								</section>
+								</section> -->
 								
 							
 							</div>
